@@ -44,6 +44,7 @@ public class EduTeacherController {
     }
 
     // 2 逻辑删除方法     这是delete请求  因此无法用浏览器进行测试（用swagger测试）
+    // http://localhost:8001/eduservice/edu-teacher/id
     @DeleteMapping("{id}")      // 需要通过路径传递id值           @PathVariable 从路径中获取值
     public boolean removePeople(@PathVariable String id){
         // 逻辑删除

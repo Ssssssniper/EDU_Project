@@ -5,10 +5,12 @@ import com.baomidou.mybatisplus.extension.injector.LogicSqlInjector;
 import com.baomidou.mybatisplus.extension.plugins.PaginationInterceptor;
 import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 
 @Configuration
 @MapperScan("com.hu.eduservice.mapper")
+@ComponentScan(basePackages = {"com.hu"})   // 这样会扫描整个项目中符合该包的文件
 public class EduConfig {
 
     // 逻辑删除插件
