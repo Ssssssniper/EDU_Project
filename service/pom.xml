@@ -17,6 +17,14 @@
     </modules>
 
     <dependencies>
+<!--    由于在service_base中已经引入了common_utils 因此不再单独引入    -->
+        <!--   引入common子模块中的工具包     -->
+<!--        <dependency>-->
+<!--            <groupId>com.hu</groupId>-->
+<!--            <artifactId>common_utils</artifactId>-->
+<!--            <version>0.0.1-SNAPSHOT</version>-->
+<!--        </dependency>-->
+        <!--    引入common子模块中的服务基础包（含swagger2）    -->
         <dependency>
             <groupId>com.hu</groupId>
             <artifactId>service_base</artifactId>

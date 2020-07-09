@@ -1,0 +1,24 @@
+2020-07-09 15:57:59.483 [main] INFO  com.hu.eduservice.EduApplication - Starting EduApplication on LAPTOP-5LM4FA27 with PID 520 (H:\IdeaProjects\cars_parent\service\service_edu\target\classes started by Hu in H:\IdeaProjects\cars_parent)
+2020-07-09 15:57:59.487 [main] INFO  com.hu.eduservice.EduApplication - The following profiles are active: dev
+2020-07-09 15:58:00.347 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-07-09 15:58:00.350 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-07-09 15:58:00.371 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 8ms. Found 0 repository interfaces.
+2020-07-09 15:58:00.667 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-09 15:58:00.922 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8001 (http)
+2020-07-09 15:58:00.931 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2020-07-09 15:58:00.932 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-07-09 15:58:00.932 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2020-07-09 15:58:00.933 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2020-07-09 15:58:00.934 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-07-09 15:58:00.934 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-07-09 15:58:00.938 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2020-07-09 15:58:01.036 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-07-09 15:58:01.037 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1487 ms
+2020-07-09 15:58:03.434 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-07-09 15:58:03.599 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-09 15:58:04.028 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-07-09 15:58:04.049 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-07-09 15:58:04.084 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-07-09 15:58:04.258 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
+2020-07-09 15:58:04.279 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8001 (http) with context path ''
+2020-07-09 15:58:04.282 [main] INFO  com.hu.eduservice.EduApplication - Started EduApplication in 5.396 seconds (JVM running for 7.557)

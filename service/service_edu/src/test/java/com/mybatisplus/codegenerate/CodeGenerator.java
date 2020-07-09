@@ -26,7 +26,7 @@ public class CodeGenerator {
         // 2、全局配置
         GlobalConfig gc = new GlobalConfig();
 //        String projectPath = System.getProperty("user.dir");      // 路径有时会错，所以用绝对路径
-        gc.setOutputDir("H:\\IdeaProjects\\cars_parent\\service\\service_edu\\" + "/src/main/java");
+        gc.setOutputDir("H:\\IdeaProjects\\cars_parent\\service\\service_edu\\" + "/src/main/java");// 输出路径
 
         gc.setAuthor("hu");   // 文件生成后的代码注释
         gc.setOpen(false); //生成后是否打开资源管理器
